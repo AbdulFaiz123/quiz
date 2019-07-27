@@ -1,0 +1,93 @@
+[2019-03-05 22:55:31] Executing bootstrap tasks
+[2019-03-05 22:55:31] Java(TM) SE Runtime Environment 1.8.0_201-b09
+[2019-03-05 22:55:31] Product org.eclipse.products.epp.package.java.2018-12
+[2019-03-05 22:55:31] Bundle org.eclipse.oomph.setup 1.10.0.v20180914-1031, build=3784, branch=d5b911e1f3bc20f8e0c54af3126d8150fbc53bdf
+[2019-03-05 22:55:31] Bundle org.eclipse.oomph.setup.core 1.11.0.v20181203-0741, build=3784, branch=d5b911e1f3bc20f8e0c54af3126d8150fbc53bdf
+[2019-03-05 22:55:31] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3784, branch=d5b911e1f3bc20f8e0c54af3126d8150fbc53bdf
+[2019-03-05 22:55:31] Performing P2 Director (Eclipse IDE for Java Developers (2018-12))
+[2019-03-05 22:55:31] Offline = false
+[2019-03-05 22:55:31] Mirrors = true
+[2019-03-05 22:55:31] Resolving 23 requirements from 3 repositories to G:\python\eclipse
+[2019-03-05 22:55:31] Requirement epp.package.java [4.10.0,5.0.0)
+[2019-03-05 22:55:31] Requirement org.eclipse.platform.feature.group [4.10.0,5.0.0)
+[2019-03-05 22:55:31] Requirement org.eclipse.rcp.feature.group [4.10.0,5.0.0)
+[2019-03-05 22:55:31] Requirement org.eclipse.buildship.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.eclemma.feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.egit.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.egit.mylyn.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.epp.mpc.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.jdt.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.jgit.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.m2e.feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn.git.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn.hudson.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.mylyn_feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.tips.feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2019-03-05 22:55:31] Requirement org.eclipse.oomph.setup.feature.group
+[2019-03-05 22:55:31] Repository http://download.eclipse.org/technology/epp/packages/2018-12
+[2019-03-05 22:55:31] Repository http://download.eclipse.org/releases/2018-12/201812191000
+[2019-03-05 22:55:31] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2019-03-05 22:55:40] Calculating requirements and dependencies.
+[2019-03-05 22:55:44] Computing prerequisite plan
+[2019-03-05 22:55:52] Collecting 25 artifacts from http://download.eclipse.org/releases/2018-12/201812191000
+[2019-03-05 22:55:54] Downloading org.eclipse.platform_root
+[2019-03-05 22:55:54] Downloading org.eclipse.jface
+[2019-03-05 22:55:54] Downloading org.eclipse.wst.sse.ui
+[2019-03-05 22:55:54] Downloading com.sun.jna.platform
+[2019-03-05 22:55:54] Downloading org.eclipse.jface.text
+[2019-03-05 22:55:54] Downloading org.eclipse.ui.workbench
+[2019-03-05 22:55:54] Downloading org.eclipse.xsd
+[2019-03-05 22:55:54] Downloading org.eclipse.rcp_root
+[2019-03-05 22:55:54] Downloading org.eclipse.mylyn.help.ui
+[2019-03-05 22:55:54] Downloading org.eclipse.mylyn.tasks.ui
+[2019-03-05 22:55:54] Downloading org.eclipse.m2e.maven.indexer
+[2019-03-05 22:55:54] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2019-03-05 22:55:54] Downloading org.eclipse.platform.doc.user
+[2019-03-05 22:55:56] Fetching com.sun.jna.platform_4.5.1.v20180403-1933.jar from http://mirror.math.princeton.edu/pub/eclipse//releases/2018-12/201812191000/plugins/ (1.14MB)
+[2019-03-05 22:55:56] Fetching org.eclipse.jface_3.15.0.v20181123-1505.jar.pack.gz from http://mirror.umd.edu/eclipse/releases/2018-12/201812191000/plugins/ (354.7kB)
+[2019-03-05 22:55:56] Fetching org.eclipse.mylyn.tasks.ui_3.24.2.v20180905-0003.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-12/201812191000/plugins/ (1.18MB)
+[2019-03-05 22:55:57] Fetching org.eclipse.wst.sse.ui_1.5.0.v201810290944.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-12/201812191000/plugins/ (312.17kB)
+[2019-03-05 22:55:57] Fetching org.eclipse.platform.doc.user_4.10.0.v20181206-0718.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-12/201812191000/plugins/ (8.01MB)
+[2019-03-05 22:55:57] Fetching org.eclipse.jface.text_3.15.0.v20181119-1708.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-12/201812191000/plugins/ (317.85kB)
+[2019-03-05 22:55:58] Fetching org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120.jar from http://eclipse.mirror.rafal.ca/releases/2018-12/201812191000/plugins/ (1.08MB)
+[2019-03-05 22:55:58] Fetching org.eclipse.mylyn.help.ui_3.24.2.v20180905-0003.jar.pack.gz from http://mirror.csclub.uwaterloo.ca/eclipse/releases/2018-12/201812191000/plugins/ (1.16MB)
+[2019-03-05 22:55:58] Fetching org.eclipse.ui.workbench_3.112.100.v20181127-1518.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/2018-12/201812191000/plugins/ (1,019.57kB)
+[2019-03-05 22:55:59] Fetching org.eclipse.xsd_2.16.0.v20181127-0852.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-12/201812191000/plugins/ (535.85kB)
+[2019-03-05 22:56:00] Fetching com.sun.jna.platform_4.5.1.v20180403-1933.jar from http://mirror.math.princeton.edu/pub/eclipse//releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:00] Fetching org.eclipse.jface_3.15.0.v20181123-1505.jar.pack.gz from http://mirror.umd.edu/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:01] Fetching org.eclipse.platform.doc.user_4.10.0.v20181206-0718.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:01] Fetching org.eclipse.mylyn.tasks.ui_3.24.2.v20180905-0003.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:01] Fetching org.eclipse.wst.sse.ui_1.5.0.v201810290944.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:02] Fetching org.eclipse.mylyn.help.ui_3.24.2.v20180905-0003.jar.pack.gz from http://mirror.csclub.uwaterloo.ca/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:02] Fetching org.eclipse.ui.workbench_3.112.100.v20181127-1518.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:02] Fetching org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120.jar from http://eclipse.mirror.rafal.ca/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:02] Fetching org.eclipse.jface.text_3.15.0.v20181119-1708.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:02] Fetching org.eclipse.xsd_2.16.0.v20181127-0852.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-12/201812191000/plugins/
+[2019-03-05 22:56:14] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2019-03-05 22:56:14] java.lang.NullPointerException
+  at org.eclipse.core.internal.runtime.InternalPlatform.getLog(InternalPlatform.java:350)
+  at org.eclipse.core.runtime.Plugin.getLog(Plugin.java:270)
+  at org.eclipse.oomph.util.OomphPlugin.getLog(OomphPlugin.java:210)
+  at org.eclipse.oomph.util.OomphPlugin.log(OomphPlugin.java:225)
+  at org.eclipse.oomph.util.OomphPlugin.log(OomphPlugin.java:236)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.cleanup(ProfileTransactionImpl.java:1129)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.access$0(ProfileTransactionImpl.java:1119)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:559)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:340)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:733)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3334)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3262)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3243)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3143)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1298)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.access$32(SimpleVariablePage.java:1166)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1111)
+
+[2019-03-05 22:56:14] 

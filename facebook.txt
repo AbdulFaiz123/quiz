@@ -1,0 +1,34 @@
+from flask import Flask,request
+from pymessenger import Bot
+
+
+app=Flask(__name__)
+bot=Bot
+
+@app.route('/',methods=['GET])
+def index():
+		if request.args.get("hub.mode")=="subscribe"
+and request.args.get("hub.challenge"):
+			if not request.args.get
+("hub.verify_token")=="hello":
+				return "failed",403
+		return request.args
+["hub.challenge"],200
+		return"hello world",200
+
+
+@app.route('/',methods=[POST'])
+def webhook():
+		data = request.get_json()
+		message = data["entry"][0]["messaging"][0]
+["message"]["text"]
+		senserId = data["entry"][0]["messaging"][0]
+["sender"]["id"]
+	print(message,senderId)
+	bot.send_text_message(senderId,"you said
+"+message)
+		return "ok",200
+
+if__name__ == '__main__':
+	app.run(debug=True)
+
